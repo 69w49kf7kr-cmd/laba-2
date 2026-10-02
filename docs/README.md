@@ -86,3 +86,13 @@ def perimeter (a,b,c):
 - Пример вызова: area(4,5) = 10
 2. Вторая функция принимает числовые (int/float) значения трех сторон треугольника и возвращает числовое значение периметра этой фигуры 
 - пример вызова: perimeter(5,5,5) = 15
+
+---
+
+## [история в хэшах](/Users/chelowedik/Desktop/programming/geometric_lib/docs/history.md):
+* 5d49026 changed second mistake - retuen instead of retuen
+* 56a904e fixed a problem with a rectangle perimetr calculation
+* 3a64bb4 have added new file to the branch
+* d078c8d (origin/main, origin/HEAD, main) L-03: Docs added
+* 8ba9aeb L-03: Circle and square added
+(END)
