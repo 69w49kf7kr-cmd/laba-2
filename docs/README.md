@@ -16,8 +16,7 @@
 ---
 
 
-## [Math formulas](/Users/chelowedik/Desktop/programming/geometric_lib/docs/explain.md)
-
+## Math formulas
 
 ## Circle
 #### Area
@@ -69,7 +68,9 @@ def perimeter(a):
 #### Area
 ***Формула:*** `S = a · b`
 
-***Принимает:*** a, b — **int** — длина и ширина прямоугольника
+***Принимает:*** a — **int** — длина прямоугольника
+
+***Принимает:*** b — **int** — ширина прямоугольника
 
 ***Пример:*** `area(4, 6) = 24`
 ```python
@@ -79,7 +80,9 @@ def area(a, b):
 #### Perimeter
 ***Формула:*** `P = 2(a + b)`
 
-***Принимает:*** a, b — **int** — длина и ширина прямоугольника
+***Принимает:*** a — **int** — длина  прямоугольника
+
+***Принимает:*** b — **int** — ширина прямоугольника
 
 ***Пример:*** `perimeter(4, 6) = 20`
 ```python
@@ -91,7 +94,9 @@ def perimeter(a, b):
 #### Area
 ***Формула:*** `S = 0.5 * h * a`
 
-***Принимает:*** a, h — **int** — основание и высота треугольника
+***Принимает:*** a — **int** — основание треугольника
+
+***Принимает:*** h — **int** — высота треугольника
 
 ***Пример:*** `area(4, 5) = 10`
 ```python
@@ -102,7 +107,12 @@ def area(a, h):
 #### Perimeter
 ***Формула:*** `P = a + b + c`
 
-***Принимает:*** a, b, c — **int** — первая вторая и третья сторона треугольника
+***Принимает:*** a — **int** — первая сторона треугольника
+
+***Принимает:*** b — **int** — вторая сторона треугольника
+
+***Принимает:*** c — **int** — третья сторона треугольника
+
 
 ***Пример:*** `perimeter(3, 4, 5) = 12`
 ```python
@@ -116,7 +126,7 @@ def perimeter(a, b, c):
 - Rectangle: P = 2a + 2b
 - Square: P = 4a
 - Triangle P = a + b + c
-## [история в хэшах](/Users/chelowedik/Desktop/programming/geometric_lib/docs/history.md):
+## история в хэшах:
 * 5d49026 changed second mistake - retuen instead of retuen
 * 56a904e fixed a problem with a rectangle perimetr calculation
 * 3a64bb4 have added new file to the branch
