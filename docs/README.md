@@ -3,9 +3,6 @@
 
 ---
 
-
-
-
 ### ход работы
 1. копировал репозиторий с удаленного сервера к себе на локальную машину 
 `git clone https://github.com/smartiqaorg/geometric_lib`
@@ -17,78 +14,24 @@
 `touch triangle.py`
 
 ---
-## [описание функций](/Users/chelowedik/Desktop/programming/geometric_lib/docs/explain.md)
-### circle.py 
-
-```python
-import math
-
-def area(r):
-    return math.pi * r * r
 
 
-def perimeter(r):
-    return 2 * math.pi * r
-```
-
-1. первая функция принимает числовое (int/float) значение радиуса круга и возвращает числовое значение площади фигуры 
-- Пример вызова: area(5) = 78.5
-2. Вторая функция принимает числовое (int/float) значение радиуса круга и возвращает числовое значение периметра этой фигуры 
-- пример вызова: perimeter(5) = 31.4
+## [Math formulas](/Users/chelowedik/Desktop/programming/geometric_lib/docs/explain.md)
 
 
-### square.py 
-
-```python
-def area(a):
-    return a * a
-
-
-def perimeter(a):
-    return 4 * a
-```
-
-1. первая функция принимает числовое (int/float) значение стороны квадрата и возвращает числовое значение площади фигуры 
-- Пример вызова: area(5) = 25
-2. Вторая функция принимает числовое (int/float) значение стороны квадрата и возвращает числовое значение периметра этой фигуры 
-- пример вызова: perimeter(5) = 20
-
-
-### rectangle.py 
-
-```python
-def area(a,b):
-    return a*b
-
-
-def perimeter (a,b):
-    return 2*(a+b)
-```
-
-1. первая функция принимает числовые (int/float) значения двух сторон прямоугольника и возвращает числовое значение площади фигуры с такими сторонам 
-- Пример вызова: area(3,5) = 15
-2. Вторая функция принимает числовые (int/float) значения двух сторон прямоугольника и возвращает числовое значение периметра этой фигуры 
-- пример вызова: perimeter(3,5) = 16
-
-
-### triangle.py 
-
-```python
-def area (a,h):
-    return 0.5 * h * a
-
-
-def perimeter (a,b,c):
-    return a + b + c
-```
-
-1. первая функция принимает числовые (int/float) значения высоты и основания треугольника и возвращает числовое значение площади фигуры 
-- Пример вызова: area(4,5) = 10
-2. Вторая функция принимает числовые (int/float) значения трех сторон треугольника и возвращает числовое значение периметра этой фигуры 
-- пример вызова: perimeter(5,5,5) = 15
+### Area
+- Circle: S = πR²
+- Rectangle: S = ab
+- Square: S = a²
+- Triangle S = 0.5 * h * a
 
 ---
 
+### Perimeter
+- Circle: P = 2πR
+- Rectangle: P = 2a + 2b
+- Square: P = 4a
+- Triangle P = a + b + c
 ## [история в хэшах](/Users/chelowedik/Desktop/programming/geometric_lib/docs/history.md):
 * 5d49026 changed second mistake - retuen instead of retuen
 * 56a904e fixed a problem with a rectangle perimetr calculation
