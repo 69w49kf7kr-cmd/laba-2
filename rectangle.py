@@ -1,5 +1,13 @@
 def area(a,b):
-	return a*b
-def perimeter(a,b):
-	return 2 * (a + b)
+    '''
+    принимает int/float - a и b - стороны прямоугольника, возвращает площадь фигуры.
+    Пример вызова area(3,5) = 15
+    '''
+    return a*b
 
+def perimeter (a,b):
+    '''
+    принимает int/float - a и b - стороны прямоугольника, возвращает периметр фигуры.
+    Пример вызова perimeter(3,5) = 16
+    '''
+    return 2*(a+b)
